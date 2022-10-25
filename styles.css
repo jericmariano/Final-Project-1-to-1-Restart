@@ -22,6 +22,19 @@ ul {
 }
 
 
+.purple {
+    color: rgb(100 21 255);
+}
+
+button {
+    border-radius: 9999px;
+    background-color: rgb(100 21 255);
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
 /* 
 
 NAVIGATION
@@ -74,5 +87,95 @@ nav {
     padding: 12px 32px;
     border-radius: 9999px;
     color: white;
+}
+
+/* 
+
+HEADER
+
+*/
+
+#header {
+    display: flex;
+    align-items: center;
+    margin: 64px 0;
+}
+
+.header__left {
+    width: 40%;
+    text-align: left;
+}
+
+.header__title {
+    font-size: 48px;
+}
+
+.header__para {
+    margin: 32px 0;
+    font-size: 1.125rem;
+    letter-spacing: 0.025em;
+}
+
+.header__input {
+    position: relative;
+    margin-bottom: 72px;
+}
+
+.header__email::placeholder {
+    color: rgb(226, 232, 240);
+}
+
+.header__email {
+    border: 2px solid rgb(226, 232, 240);
+    border-radius: 80px;
+    padding: 20px 192px 20px 32px;
+    font-size: 100%;
+}
+
+.header__button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 2.4rem;
+    width: 10rem;
+    font-size: 100%;
+}
+
+.header__left--customers {
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: rgb(160, 174, 192);
+    margin-bottom: 16px;
+}
+
+.header__left__img--container {
+    width: 100%;
+    padding-right: 6rem;
+}
+
+.header__left--img {
+    width: 100%;
+    opacity: 50%;
+}
+
+.header__right {
+    width: 60%;
+}
+
+.header__img--container {
+    width: 100%;
+}
+
+.header__img {
+    width: 100%;
+    max-width: 48rem;
 }
 
