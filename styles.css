@@ -191,6 +191,14 @@ FEATURES
 
 */
 
+.features__container {
+    margin: 48px;
+}
+
+.features__row {
+    max-width: 1000px;
+}
+
 .purple__title {
     font-weight: 700;
     letter-spacing: 0.1em;
