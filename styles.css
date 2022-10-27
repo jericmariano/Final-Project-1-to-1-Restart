@@ -37,6 +37,7 @@ button {
     color: white;
     font-size: 14px;
     font-weight: 600;
+    padding: 12px 32px;
 }
 
 /* 
@@ -258,3 +259,41 @@ FEATURES
     color: rgb(144, 146, 150);
     margin-top: 16px;
 }
+
+/* 
+
+QUALITY
+
+*/
+
+.quality__row {
+    display: flex;
+}
+
+.quality__description {
+    width: 50%;
+    padding-right: 32px;
+}
+
+.quality__para {
+    font-size: 1.125rem;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1.625;
+    color: rgb(144, 146, 150);
+}
+
+.quality__button {
+    margin-top: 32px;
+}
+
+.quality__img--container {
+    width: 50%;
+}
+
+.quality__img {
+    width: 100%;
+    border: 1px solid rgba(209, 212, 218, 0.5);
+    border-radius: 0.25rem;
+}
+
