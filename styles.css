@@ -19,6 +19,7 @@
 
 a {
     text-decoration: none;
+    transition: 300ms all ease;
 }
 
 ul {
@@ -71,6 +72,11 @@ nav {
 .nav__logo--text {
     font-weight: 900;
     font-size: 1.5rem;
+    color: black;
+}
+
+.nav__logo--text:hover {
+    color: rgb(100 21 255);
 }
 
 .nav__links {
@@ -95,6 +101,20 @@ nav {
     border-radius: 9999px;
     color: white;
 }
+
+.nav__link--purple,
+.nav__link--secondary {
+    border-bottom: 2px solid;
+    border-color: white;
+    padding-bottom: 0.25em;
+}
+
+.nav__link--purple:hover,
+.nav__link--secondary:hover {
+    color: rgb(100, 21, 255);
+    border-color: rgb(100, 21, 255);
+}
+
 
 /* 
 
@@ -138,7 +158,17 @@ HEADER
     padding: 20px 192px 20px 32px;
     font-size: 100%;
     width: 100%;
+    transition: 300ms all ease;
 }
+
+.header__email:hover {
+    border-color: rgb(144, 146, 150);
+}
+
+.header__email:focus  {
+    border-color: rgb(100, 21, 255);
+}
+
 
 .header__button {
     position: absolute;
@@ -156,12 +186,14 @@ HEADER
 }
 
 .nav__link--primary,
-.header__button {
+.header__button,
+.quality__button {
     transition: 300ms all ease;
 }
 
 .nav__link--primary:hover,
-.header__button:hover {
+.header__button:hover,
+.quality__button:hover {
     background-color: rgb(80 17 204);
 }
 
