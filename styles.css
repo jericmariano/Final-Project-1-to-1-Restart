@@ -429,6 +429,15 @@ PRICING
 
 */
 
+.plan__button {
+    transition: 300ms all ease;
+}
+
+.plan__button:hover {
+   transform: translateY(-1px);
+   box-shadow: 0 10px 16px rgba(0, 0, 0, 0.30);
+}
+
 .pricing__description {
     text-align: center;
 }
