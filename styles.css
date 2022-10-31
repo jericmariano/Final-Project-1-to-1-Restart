@@ -602,6 +602,13 @@ footer {
     margin-top: 1rem;
     font-size: 14px;
     font-weight: 500;
+    border-bottom: 2px solid;
+    border-color: rgb(100, 21, 255);
+    padding-bottom: 0.25em;
+}
+
+.footer__link:hover  {
+    border-color: white;
 }
 
 .links {
