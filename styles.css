@@ -15,6 +15,7 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 40px;
 }
 
 a {
@@ -157,7 +158,7 @@ HEADER
     border-radius: 80px;
     padding: 20px 192px 20px 32px;
     font-size: 100%;
-    width: 100%;
+    width: 90%;
     transition: 300ms all ease;
 }
 
@@ -180,7 +181,7 @@ HEADER
     align-items: center;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    margin-right: .5rem;
+    margin-right: 3.5rem;
     width: 10rem;
     font-size: 100%;
 }
@@ -675,4 +676,76 @@ footer {
 
 .fa-youtube {
     padding: 8px;
+}
+
+/* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
+
+@media (max-width: 868px) {
+
+    nav {
+        font-size: 12px;
+    }
+
+    #header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__left {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__title {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .header__para {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .header__email {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .header__input {
+        margin-bottom: 36px;
+    }
+
+    .header__button {
+        width: auto;
+        margin-right: .5rem;
+    }
+
+    .header__right  {
+        width: 80%;
+    }
+
+    .header__left__customers--container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .header__left--customers {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .header__left__img--container {
+        padding-right: 0;
+    }
+
+    .header__img {
+        margin-top: 20px;
+    }
+
+
 }
