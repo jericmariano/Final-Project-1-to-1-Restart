@@ -775,11 +775,17 @@ footer {
     }
 
     .plans {
-        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .plan {
-        width: 60%;
+        width: 50%;
+    }
+
+    .plan:nth-child(2) {
+        margin: 32px 0;
     }
 
 }
