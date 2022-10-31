@@ -661,6 +661,10 @@ footer {
     margin-left: 16px;
 }   
 
+.social__link:hover {
+    background-color: rgb(203, 213, 224);
+}
+
 .fa-facebook {
    padding: 8px 11px;
 }
