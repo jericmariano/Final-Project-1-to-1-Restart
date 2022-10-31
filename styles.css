@@ -747,5 +747,39 @@ footer {
         margin-top: 20px;
     }
 
+    .service {
+        width: 50%;
+        padding-right: 2rem;
+    }
+
+    .quality__img--container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #quality .section__title {
+        font-size: 36px;
+    }
+
+    .quality__para {
+        font-size: 16px;
+    }
+
+    .step__description {
+        padding-left: 12px;
+    }
+
+    .pricing__para {
+        font-size: 16px;
+    }
+
+    .plans {
+        
+    }
+
+    .plan {
+        width: 60%;
+    }
 
 }
