@@ -833,15 +833,50 @@ footer {
 
 @media (max-width: 768px) {
 
+    .header__email {
+        font-size: 14px;
+    }
+
+    .section__title {
+        font-size: 36px;
+    }
+
+    .features__para {
+        font-size: 14px;
+    }
+
+    #features .row {
+        padding: 0;
+    }
+
     .services {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 12px;
     }
 
     .service {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 0;
         width: 70%;
+        text-align: center;
+    }
+
+    .service__description {
+        margin-left: 0;
+    }
+
+    #quality .row {
+        padding: 0;
+    }
+
+    #quality .section__title {
+        font-size: 30px;
     }
 
     .quality__row {
@@ -851,13 +886,15 @@ footer {
     }
 
     .quality__img--container {
-        width: 70%;
+        width: 90%;
     }
 
     .quality__description {
         width: 70%;
         margin-top: 32px;
         text-align: center;
+
+        padding-right: 0;
     }
 
     .quality__para {
@@ -871,7 +908,7 @@ footer {
     }
 
     .steps__img--container {
-        width: 70%;
+        width: 90%;
     }
 
     .steps__description {
@@ -882,7 +919,7 @@ footer {
     }
 
     #steps .section__title {
-        font-size: 36px;
+        font-size: 30px;
     }
 
     .step:nth-child(2) {
@@ -913,8 +950,12 @@ footer {
         margin: 12px 0;
     }
 
+    .pricing__para {
+        font-size: 14px;
+    }
+
     .plan {
-        width: 65%;
+        width: 90%;
     }
 
     .links {
