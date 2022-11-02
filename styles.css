@@ -104,17 +104,97 @@ nav {
 }
 
 .nav__link--purple,
-.nav__link--secondary {
+.nav__link--secondary,
+.menu__link {
     border-bottom: 2px solid;
     border-color: white;
     padding-bottom: 0.25em;
 }
 
 .nav__link--purple:hover,
-.nav__link--secondary:hover {
+.nav__link--secondary:hover,
+.menu__link:hover {
     color: rgb(100, 21, 255);
     border-color: rgb(100, 21, 255);
 }
+
+.btn__menu {
+    background-color: transparent;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(144, 146, 150);
+    border: none;
+    display: none;
+}
+
+.menu__backdrop {
+    position: absolute;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 400px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 24px 20px;
+    border: 1px solid rgb(226, 232, 240);
+    border-radius: 8px;
+    transition: all 300ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.menu__open {
+    max-height: 100vh;
+    overflow-y: hidden;
+}
+
+.menu--open .menu__backdrop {
+    display: flex;
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu__list {
+    padding: 16px 0;
+}
+
+.menu__link {
+    font-size: 18px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.menu__link--primary {
+    border-radius: 9999px;
+    background-color: rgb(100 21 255);
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 32px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.btn__menu--close {
+    position: absolute;
+    right: 45px;
+    top: 25px;
+    padding: 8px;
+    color: rgb(100, 21, 255);
+} 
+
 
 
 /* 
@@ -715,6 +795,15 @@ footer {
 
 @media (max-width: 1024px) {
     
+    .nav__links {
+        display: none;
+    }
+
+    .btn__menu {
+        display: block;
+    }
+
+
     nav {
         font-size: 12px;
     }
