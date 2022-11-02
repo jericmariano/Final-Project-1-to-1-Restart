@@ -680,12 +680,45 @@ footer {
 
 
 
-@media (max-width: 868px) {
+@media (max-width: 1160px) {
+    .header__email {
+        width: 90%;
+        position: unset;
+        padding: 20px 12px;
+    }
 
+    .header__button {
+        position: unset;
+        width: 90%;
+    }
+    
+    .step__description {
+        padding-left: 12px;
+    }
+    
+    .link__column {
+        padding: 0 12px;
+    }
+    
+    footer {
+        padding: 48px 8px;
+    }
+    
+    .footer__copyright {
+        font-size: 12px;
+    }
+    
+    .footer__copyright--para  {
+        padding: 0 12px;
+    }
+}
+
+@media (max-width: 1024px) {
+    
     nav {
         font-size: 12px;
     }
-
+    
     #header {
         display: flex;
         flex-direction: column;
@@ -697,37 +730,37 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-
+    
     .header__title {
         text-align: center;
         font-size: 30px;
     }
-
+    
     .header__para {
         font-size: 16px;
         text-align: center;
     }
-
+    
     .header__email {
         margin: 0 auto;
         width: 100%;
-        padding: 20px 12px;
+        padding: 20px 80px;
         text-align: center;
     }
-
+    
     .header__input {
         margin-bottom: 36px;
     }
-
+    
     .header__button {
         width: auto;
         width: 100%;
     }
-
+    
     .header__right  {
         width: 80%;
     }
-
+    
     .header__left__customers--container {
         display: flex;
         flex-direction: column;
@@ -735,16 +768,16 @@ footer {
         justify-content: center;
         margin: 0 auto;
     }
-
+    
     .header__left--customers {
         text-align: center;
         font-size: 14px;
     }
-
+    
     .header__left__img--container {
         padding-right: 0;
     }
-
+    
     .header__img {
         margin-top: 20px;
     }
@@ -753,13 +786,13 @@ footer {
         width: 50%;
         padding-right: 2rem;
     }
-
+    
     .quality__img--container {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-
+    
     #quality .section__title {
         font-size: 36px;
     }
@@ -767,7 +800,7 @@ footer {
     .quality__para {
         font-size: 16px;
     }
-
+    
     .step__description {
         padding-left: 12px;
     }
@@ -781,7 +814,7 @@ footer {
         justify-content: center;
         align-items: center;
     }
-
+    
     .plan {
         width: 50%;
     }
@@ -793,7 +826,7 @@ footer {
     footer {
         padding: 4rem 1rem;
     }
-
+    
 }
 
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
@@ -908,32 +941,78 @@ footer {
 
 }
 
-@media (max-width: 1160px) {
+/* SMALL PHONES */
+@media (max-width: 480px) {
     .header__email {
+        font-size: 14px;
+    }
+
+    .row {
+        padding: 0;
+    }
+
+    .section__title {
+        font-size: 36px;
+    }
+
+    .features__para {
+        font-size: 14px;
+    }
+
+    .services {
+        margin-top: 12px;
+    }
+
+    .service {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0;
         width: 90%;
-        position: unset;
-        padding: 20px 12px;
     }
 
-    .header__button {
-        position: unset;
+    .service__description {
+        text-align: center;
+        margin-left: 0;
+        padding-right: 0;
+    }
+
+    .quality__img--container {
         width: 90%;
     }
 
-    .step__description {
-        padding-left: 12px;
+
+    #quality .section__title {
+        font-size: 30px;
     }
 
-    .link__column {
-        padding: 0 12px;
+    .quality__description {
+        width: 90%;
+        padding-right: 0;
     }
 
-    .footer__copyright {
-        font-size: 12px;
+    .steps__img--container {
+        width: 90%;
     }
 
-    .footer__copyright--para  {
-        padding: 0 12px;
+    #steps .section__title {
+        font-size: 30px;
+    }
+
+    #pricing {
+        padding: 2rem;
+    }
+
+    #pricing .section__title {
+        font-size: 36px;
+    }
+
+    .pricing__para {
+        font-size: 14px;
+    }
+
+    .plan {
+        width: 100%;
     }
 }
-
