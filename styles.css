@@ -1145,4 +1145,62 @@ footer {
     .plan {
         width: 100%;
     }
+
+    .link__column {
+        padding: 12px 1px;
+    }
+
+    .btn__menu--close {
+        right: 5px;
+    }
+
+
+}
+
+@keyframes slide-left-to-right {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slide-right-to-left {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+#header, nav {
+    animation: slide-left-to-right 800ms 400ms backwards;
+}
+
+#features {
+    animation: slide-right-to-left 800ms 400ms backwards;
+}
+
+#quality {
+    animation: slide-left-to-right 800ms 1200ms backwards;
+}
+
+#steps {
+    animation: slide-right-to-left 800ms 1200ms backwards;
+}
+
+#pricing {
+    animation: slide-left-to-right 800ms 2000ms backwards;
+}
+
+footer {
+    animation: slide-right-to-left 800ms 2000ms backwards;
 }
